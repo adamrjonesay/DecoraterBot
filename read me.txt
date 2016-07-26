@@ -1,0 +1,42 @@
+Made By Aiden Ward
+https://www.youtube.com/user/DlcEnergy
+
+----------------------------------------------------
+INSTRUCTIONS:
+
+Extract files to desktop:
+include / lib / libtcc.dll / tcc.exe / setup.py
+merge your C:\Python34\include into the include folder
+
+put your main.py on desktop
+run setup.py (will generate > main.c)
+
+open cmd and type, cd desktop (instead of user folder)
+copy this next line in, and you're done!
+tcc.exe main.c -o main.pyd -shared -Iinclude -Llib -lpython34
+
+----------------------------------------------------
+
+
+IMPORTANT PART!
+The Cython included with this is for Python 3.4.
+It should work for any Python 3 version:
+If not, download another Cython module in replacement.
+
+Almost every Python module you can want!
+http://www.lfd.uci.edu/~gohlke/pythonlibs/
+
+Since they're all .whl files, just use winrar to open it.
+And drag out the needed files.
+
+You can also put them here: (for the long run =D)
+C:\Python34\Lib\site-packages
+
+----------------------------------------------------
+
+P.S. If you're a good programmer, you'd have realized,
+you can rename 'main' into whatever you want.
+By modifying setup.py and the cmd code. =)
+
+
+HOPE YOU ALL ARE HAPPY
