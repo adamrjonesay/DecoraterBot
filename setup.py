@@ -74,8 +74,6 @@ compile_helper.compile_to_pyd('to_build\\chardet\\', 'escsm.py')
 compile_helper.compile_to_pyd('to_build\\chardet\\', 'eucjpprober.py')
 compile_helper.compile_to_pyd('to_build\\chardet\\', 'euckrfreq.py')
 compile_helper.compile_to_pyd('to_build\\chardet\\', 'euckrprober.py')
-# makes link.exe (Microsoft Incremental Linker) have a memory leak.
-# Dont believe me? Uncomment this line of code and see for yourself.
 compile_helper.compile_to_pyd('to_build\\chardet\\', 'euctwfreq.py')
 compile_helper.compile_to_pyd('to_build\\chardet\\', 'euctwprober.py')
 compile_helper.compile_to_pyd('to_build\\chardet\\', 'gb2312freq.py')
@@ -191,8 +189,6 @@ compile_helper.compile_to_pyd('to_build\\requests\\packages\\chardet\\', 'escsm.
 compile_helper.compile_to_pyd('to_build\\requests\\packages\\chardet\\', 'eucjpprober.py')
 compile_helper.compile_to_pyd('to_build\\requests\\packages\\chardet\\', 'euckrfreq.py')
 compile_helper.compile_to_pyd('to_build\\requests\\packages\\chardet\\', 'euckrprober.py')
-# makes link.exe (Microsoft Incremental Linker) have a memory leak.
-# Dont believe me? Uncomment this line of code and see for yourself.
 compile_helper.compile_to_pyd('to_build\\requests\\packages\\chardet\\', 'euctwfreq.py')
 compile_helper.compile_to_pyd('to_build\\requests\\packages\\chardet\\', 'euctwprober.py')
 compile_helper.compile_to_pyd('to_build\\requests\\packages\\chardet\\', 'gb2312freq.py')
@@ -251,8 +247,8 @@ compile_helper.compile_to_pyd('to_build\\setuptools\\', 'package_index.py')
 compile_helper.compile_to_pyd('to_build\\setuptools\\', 'py26compat.py')
 compile_helper.compile_to_pyd('to_build\\setuptools\\', 'py27compat.py')
 compile_helper.compile_to_pyd('to_build\\setuptools\\', 'py31compat.py')
-compile_helper.compile_to_pyd('to_build\\setuptools\\', 'sandbox.py')
-compile_helper.compile_to_pyd('to_build\\setuptools\\', 'site-patch.py')
+# compile_helper.compile_to_pyd('to_build\\setuptools\\', 'sandbox.py')
+# compile_helper.compile_to_pyd('to_build\\setuptools\\', 'site-patch.py')
 compile_helper.compile_to_pyd('to_build\\setuptools\\', 'ssl_support.py')
 compile_helper.compile_to_pyd('to_build\\setuptools\\', 'unicode_utils.py')
 compile_helper.compile_to_pyd('to_build\\setuptools\\', 'utils.py')
